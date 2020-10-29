@@ -1,0 +1,21 @@
+{
+    "name": "PasuruanDev-IT Enthusiast!",
+    "short_name": "PasuruanDev",
+    "description": "website official PasuruanDev",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#1b1b1b",
+    "theme_color": "#1b1b1b",
+    "icons": [
+        {
+            "src": "./assets/images/icon512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "./assets/images/icon192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "refactor-pasuruandev-official",
+  "version": "1.0.0",
+  "description": "Website PasuruanDev Official",
+  "main": "app.js",
+  "scripts": {
+    "start-dev": "webpack serve --mode development --env development",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/R1dwanMaulana/refactor-PasuruanDev-Official.git"
+  },
+  "author": "Ridwan Maulana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/R1dwanMaulana/refactor-PasuruanDev-Official/issues"
+  },
+  "homepage": "https://github.com/R1dwanMaulana/refactor-PasuruanDev-Official#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.2.1",
+    "css-loader": "^5.0.0",
+    "html-webpack-plugin": "^4.5.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.3.1",
+    "webpack-cli": "^4.1.0",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.2.0",
+    "workbox-webpack-plugin": "^5.1.4"
+  },
+  "dependencies": {
+    "regenerator-runtime": "^0.13.7",
+    "workbox-core": "^5.1.4",
+    "workbox-precaching": "^5.1.4",
+    "workbox-routing": "^5.1.4",
+    "workbox-strategies": "^5.1.4"
+  }
+}
