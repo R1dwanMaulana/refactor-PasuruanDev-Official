@@ -1,7 +1,7 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyPlugin = require("copy-webpack-plugin");
-const InjectManifest = require("workbox-webpack-plugin"); 
+const { InjectManifest } = require("workbox-webpack-plugin"); 
 
 module.exports = {
     entry: "./app.js",
@@ -35,7 +35,7 @@ module.exports = {
         new CopyPlugin({
             patterns: [
               { from: 'assets/css/', to: 'assets/css/' },
-              { from: 'assets/img/', to: 'assets/img/' },
+              { from: 'assets/images/', to: 'assets/images/' },
               { from: './manifest.json'},
             ],
           }),
