@@ -37,6 +37,7 @@ module.exports = {
               { from: 'assets/css/', to: 'assets/css/' },
               { from: 'assets/images/', to: 'assets/images/' },
               { from: './manifest.json'},
+              { from: 'ico/', to: 'ico/'}
             ],
           }),
          new InjectManifest({
