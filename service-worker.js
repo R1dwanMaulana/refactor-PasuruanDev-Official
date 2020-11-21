@@ -15,7 +15,7 @@ else
   console.log(`Yahhh! workbox gagal :(`);
 workbox.precaching.precacheAndRoute( 
 [
-  { url: '/index.html', revision: '1' },
+  { url: '/index.html', revision: '2' },
   { url: '/assets/css/pasdev.css', revision: '1'},
   { url: '/bundle.js', revision: '1' },
   { url: '/manifest.json', revision: '2' },
@@ -41,6 +41,7 @@ workbox.precaching.precacheAndRoute(
   { url: '/assets/images/Vector 2.png', revision: '1'},
   { url: '/assets/images/webinar1.jpg', revision: '1'},
   { url: '/assets/images/webinar2.png', revision: '1'}, 
+  { url: '/assets/images/webinar3.jpeg', revision: '1'}, 
   { url: '/ico/apple-touch-icon-57x57.png', revision: '1'},
   { url: '/ico/apple-touch-icon-60x60.png', revision: '1'},
   { url: '/ico/apple-touch-icon-72x72.png', revision: '1'},
